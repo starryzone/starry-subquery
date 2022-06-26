@@ -1,0 +1,12 @@
+type ExecuteEvent @entity {
+  id: ID!
+  blockHeight: BigInt!
+  txHash: String!
+  contractAddress: String!
+  action: String
+  sender: String
+  recipient: String
+  spender: String
+  tokenId: String
+  operator: String
+}

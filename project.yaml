@@ -36,9 +36,9 @@ dataSources:
         - handler: handleEvent
           kind: cosmos/EventHandler
           filter:
-            type: execute
+            type: wasm
             messageFilter:
               type: "/cosmwasm.wasm.v1.MsgExecuteContract"
+              contract: "juno1za0uemnhzwkjrqwguy34w45mqdlzfm9hl4s5gp5jtc0e4xvkrwjs6s2rt4"
               # contractCall field can be specified here too
               #values: # A set of key/value pairs that are present in the message data
-              contract: "juno1za0uemnhzwkjrqwguy34w45mqdlzfm9hl4s5gp5jtc0e4xvkrwjs6s2rt4"

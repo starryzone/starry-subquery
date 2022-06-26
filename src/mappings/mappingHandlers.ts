@@ -24,7 +24,7 @@ export async function handleEvent(event: CosmosEvent): Promise<void> {
       case "spender":
         eventRecord.spender = attr.value;
         break;
-      case "tokenId":
+      case "token_id":
         eventRecord.tokenId = attr.value;
         break;
       case "operator":
